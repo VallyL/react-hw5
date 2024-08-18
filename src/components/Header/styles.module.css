@@ -1,0 +1,28 @@
+.headerContainer {
+  padding: 40px;
+  max-width: 1707px;
+  margin: 0 auto;
+}
+
+.headerContainer > img {
+  width: 139.5px;
+  height: 44px;
+}
+
+@media screen and (max-width: 1050px) {
+  .headerContainer {
+    padding: 30px;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .headerContainer {
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .headerContainer {
+    padding: 5px;
+  }
+}
